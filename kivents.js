@@ -1,3 +1,4 @@
+/*! kivents.js | MIT License | https://github.com/kadirilkimen/kivents */
 'use strict';
 const KIVENTS = function(params)
   {
