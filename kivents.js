@@ -105,6 +105,7 @@ const KIVENTS = function(params)
         return true;
       }
 
+    _this.emit = function( target, payload, printable ) { _this.run( target, payload, printable ); };
     _this.run = function( target, payload, printable )
       {
         if( printable === undefined ) printable = _args.debug;
