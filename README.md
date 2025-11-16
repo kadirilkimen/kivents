@@ -84,7 +84,7 @@ events.emit('myTarget', null, printable);
 ```javascript
 const allEvents = events.getEvents();
 ```
--Returns the internal `Map` of all registered events and listeners.
+- Returns the internal `Map` of all registered events and listeners.
 
 
 ## Notes
